@@ -10,7 +10,7 @@ RUN apt-get install -y wget bzip2 git protobuf-compiler unzip
 
 RUN git clone https://github.com/MCMrARM/mcpelauncher-linux .; git submodule init; git submodule update
 
-RUN ./setup_bin_libs.sh; ./setup_cef.sh; ./download_icon.sh
+RUN ./setup_bin_libs.sh; CPU_CORE_COUNT=1 ./setup_cef.sh; ./download_icon.sh
 
 RUN cmake .
 RUN make
