@@ -2,7 +2,7 @@
 
 ### Motivation
 
-MCPE Linux Launcher is wonderful project, but it's quite hard to satisfy versions for all dependencies to compile project, especially on usual/dirty linux workstation with a lot of installed stuff. This project solve dependencies issues using clean, isolated env inside docker container.
+[MCPE Linux Launcher](https://github.com/MCMrARM/mcpelauncher-linux) is wonderful project, but it's quite hard to satisfy versions for all dependencies to compile project, especially on usual/dirty linux workstation with a lot of installed stuff. This project solve dependencies issues using clean, isolated env inside docker container.
 
 ### Building
 
