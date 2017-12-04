@@ -20,3 +20,9 @@ Starting existing container:
 	docker start mcpe
 
 
+### Tips
+
+You can copy compiled project from container using `docker cp`, and if you are quite lucky it will work. Just keep in mind that it's [32-bit](https://askubuntu.com/questions/454253/how-to-run-32-bit-app-in-ubuntu-64-bit/454254#454254) and external libraries must match to ones in container.
+
+	docker cp mcpe:/mcpe .
+
