@@ -26,3 +26,7 @@ You can copy compiled project from container using `docker cp`, and if you are q
 
 	docker cp mcpe:/mcpe .
 
+For previous compiled versions you can checkout tagged images:
+
+	irioth/mcpe:1.2.5
+	irioth/mcpe:1.2.6
